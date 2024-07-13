@@ -1,5 +1,5 @@
 
-import '/Users/larasati/Documents/Fruity Web/Project/sorting-project/sorting-project/src/Words/Cover.css'
+import './Words/Cover.css'
 
 
 function CoverPage(){
