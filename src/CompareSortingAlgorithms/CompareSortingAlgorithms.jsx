@@ -1,8 +1,8 @@
 import React from 'react';
-import * as CompareSortingAlgorithms from '/Users/larasati/Documents/Fruity Web/Project/sorting-project/sorting-project/src/CompareSortingAlgorithms/CompareSortingAlgorithms.js';
-import '/Users/larasati/Documents/Fruity Web/Project/sorting-project/sorting-project/src/CompareSortingAlgorithms/CompareSortingAlgorithms.css';
+import * as CompareSortingAlgorithms from './CompareSortingAlgorithms/CompareSortingAlgorithms.js';
+import './CompareSortingAlgorithms/CompareSortingAlgorithms.css';
 import ResetButton from '../AdditionButtons/ResetButton';
-import * as CompareSortingAlgorithms2 from '/Users/larasati/Documents/Fruity Web/Project/sorting-project/sorting-project/src/CompareSortingAlgorithms/CompareSortingAlgorithms2.js';
+import * as CompareSortingAlgorithms2 from './CompareSortingAlgorithms/CompareSortingAlgorithms2.js';
 
 
 const ANIMATION_SPEED_MS = 10;
