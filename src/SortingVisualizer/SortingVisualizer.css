@@ -1,0 +1,111 @@
+
+.array-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 10px;
+    height: 70vh;
+}
+
+.array-bar {
+    width: 10px;
+    background-color: rgb(219, 148, 215);
+    display: inline-block;
+    margin: 0 1px;
+    transition: height 0.2s ease-in-out;
+}
+
+.buttons {
+    background-color: none;
+    display: flex;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.each-button {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 1px solid rgb(67, 55, 69);
+    background-color: rgb(214, 192, 243);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.each-button:hover {
+    background-color: blueviolet;
+    font-size: 21.5px;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.dropdown-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 5vh; /* Adjust height as needed */
+}
+
+.down-lists {
+    padding: 5px;
+    margin: 0 50px; /* Add some margin between dropdowns */
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid rgb(67, 55, 69);
+    background-color: rgb(214, 192, 243);
+    cursor: pointer;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .cover-title {
+        font-size: 36px;
+    }
+    
+    .cover-subtitle {
+        font-size: 18px;
+    }
+    
+    .array-bar {
+        width: 8px;
+        margin: 0 0.5px;
+    }
+    
+    .each-button {
+        font-size: 16px;
+    }
+    
+    .down-lists {
+        font-size: 16px;
+        margin: 0 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cover-title {
+        font-size: 24px;
+    }
+    
+    .cover-subtitle {
+        font-size: 14px;
+    }
+    
+    .array-bar {
+        width: 5px;
+        margin: 0 0.5px;
+    }
+    
+    .each-button {
+        font-size: 14px;
+    }
+    
+    .down-lists {
+        font-size: 14px;
+        margin: 0 10px;
+    }
+}
