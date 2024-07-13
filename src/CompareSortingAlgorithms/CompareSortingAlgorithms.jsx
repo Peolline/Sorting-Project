@@ -1,8 +1,8 @@
 import React from 'react';
-import * as CompareSortingAlgorithms from './CompareSortingAlgorithms/CompareSortingAlgorithms.js';
-import './CompareSortingAlgorithms/CompareSortingAlgorithms.css';
+import * as CompareSortingAlgorithms from './CompareSortingAlgorithms.js';
+import './CompareSortingAlgorithms.css';
 import ResetButton from '../AdditionButtons/ResetButton';
-import * as CompareSortingAlgorithms2 from './CompareSortingAlgorithms/CompareSortingAlgorithms2.js';
+import * as CompareSortingAlgorithms2 from './CompareSortingAlgorithms2.js';
 
 
 const ANIMATION_SPEED_MS = 10;

@@ -1,5 +1,5 @@
 
-import './Words/Cover.css'
+import './Cover.css'
 
 
 function CoverPage(){
