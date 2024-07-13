@@ -2,6 +2,7 @@
 import CompareSortingAlgorithms from "./CompareSortingAlgorithms/CompareSortingAlgorithms.jsx";
 import SortingVisualizer from "./SortingVisualizer/SortingVisualizer";
 import CoverPage from "./Words/CoverPage";
+import Devider from "./Words/Devider";
 
 
 
@@ -13,6 +14,9 @@ function App(){
       </section>
       <section>
         <SortingVisualizer/>
+      </section>
+      <section>
+        <Devider/>
       </section>
       <section>
         <CompareSortingAlgorithms/>
