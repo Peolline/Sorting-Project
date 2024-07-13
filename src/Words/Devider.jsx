@@ -4,7 +4,7 @@ function Devider(){
     return(
     <>
         <div className="cover-container">
-            <h1 className="cover2-title">Comparing Sort Methods</h1>
+            <h1 className="cover2-title">Comparing Sorting Algorithms</h1>
         </div>
     </>
     )
